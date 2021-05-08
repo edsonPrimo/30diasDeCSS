@@ -41,7 +41,7 @@ ul li span
 }
 ul li:hover span
 {
-    box-shadow: -1px 1px 1px rgba(0,0,0,.1);
+box-shadow: -1px 1px 1px rgba(0,0,0,.1);    
 }
 ul li:hover span:nth-child(5)
 {

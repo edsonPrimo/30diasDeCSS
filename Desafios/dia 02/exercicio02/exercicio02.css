@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 600px;
+    color: rgba(0, 0, 0, 0.295);
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.979);
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+.ring {
+    position: absolute;
+    box-shadow: 0 4px 0 #262626;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    animation: animate 1s linear infinite;
+
+}
+
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
