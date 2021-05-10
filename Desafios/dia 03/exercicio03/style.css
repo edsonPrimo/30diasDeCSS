@@ -11,23 +11,24 @@ section
     box-sizing: border-box;
     overflow: hidden;
     position: absolute;
+
 }
-.wrapper 
-{
-    height: 100%;
-    width: 50%;
-    background: #f55757;
+.caixa {
     overflow: hidden;
-    color: #eaffae;
     position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: #f55757;
+    color: #eaffae;
+    left: 0 ;
     top: 0;
-    left: 0;
     border-right: 2px solid #262626;
 }
-.sliding 
-{
+
+.mensagem {
     position: absolute;
     top: 50%;
+    transform:translateY(-50%);
     white-space: nowrap;
     font-size: 12em;
     line-height: 220px;
