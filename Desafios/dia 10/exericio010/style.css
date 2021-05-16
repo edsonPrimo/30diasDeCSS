@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+body {
+    background-color: aquamarine;
+    font-family: 'Pangolin', cursive;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div {
+    width: 500px;
+}
+h1 {
+   display: inline-block; 
+}
+.img {
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+    background-image: url(fatia-de-pizza.svg);
+    animation: trocaImagem 3.5s step-end infinite;
+    margin-left: 15px;
+}
+
+@keyframes trocaImagem {
+    0% {background-image: url(fatia-de-pizza.svg);}
+    25% {background-image: url(joystick.svg);}
+    50% {background-image: url(desktop.svg);}
+    
+}
