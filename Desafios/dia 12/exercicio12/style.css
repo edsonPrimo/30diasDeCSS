@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+
+h1:hover::first-letter {
+    animation: preenchimento 1s linear;
+}
+@keyframes  preechimento {
+      0%{color: blueviolet}
+      100%{color: violet}
+}
